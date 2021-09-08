@@ -1,0 +1,6 @@
+# AutoPy2Fpga
+## A Novel Automate Python Edge-to-Edge: From AutomatedGeneration on Cloud to User Application Deployment on Edgeof Deep Neural Networks for Low Power IoT SystemsFPGA-Based Acceleration
+
+Deep Neural Networks (DNNs) deployment for IoT Edge applications requires strongskills in hardware and software. In this paper, a novel design framework fully automated for Edgeapplications is proposed to perform such a deployment on System-on-Chips. Based on a high-levelPython interface that mimics the leading Deep Learning software frameworks, it offers an easy wayto implement a hardware-accelerated DNN on an FPGA. To do this, our design methodology coversthe three main phases:  (a)customization:where the user specifies the optimizations needed oneach DNN layer, (b)generation:the framework generates on the Cloud the necessary binaries forboth FPGA and software parts, and (c)deployment:the SoC on the Edge receives the resulting filesserving to program the FPGA and related Python libraries for user applications. Among the studycases, an optimized DNN for the MNIST database can speed up more than 60×a software versionon the ZYNQ 7020 SoC and still consume less than0.43 W.A comparison with the state-of-the-artframeworks demonstrates that our methodology offers the best trade-off between throughput, powerconsumption, and system cost.
+
+MDPI sensors 2021
