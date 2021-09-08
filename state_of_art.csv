@@ -1,0 +1,7 @@
+Work,Topology,Chip,"Data (Bit, Type)",Parameters (Number),Accuracy (%),FPS,Mps,Power ,Power/Throughput (mW/Mps)
+Coutinho2019DeepAutoencoder,784-100-50-10,Virtex6,"12,fixed",84.05,93.3\%,1250,105.062,0.3,2.855
+Mazouz2020AutomatedCNNs,1-2-4,Zynq7100,"16,fixed",41.71,98.6\%,526,21.934,0.578,26.35
+Rivera-Acosta2019AutomaticFPGA,LeNet-5,CycloneIV,"32,float",60,-,925,55.5,-,-
+"Ours,\#1",784-100-50-10,Zynq7020,"32,float",84.05,99.2\%,19,1.59,0.478,300.6
+"Ours,\#2",784-100-50-10,Zynq7020,"32,float",84.05,99.2\%,118,9.917,0.49,49.4
+"Ours,\#3",784-100-50-10,Zynq7020,"32,float",84.05,99.2\%,1160,97.498,0.38,3.89
